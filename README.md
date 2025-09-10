@@ -1,5 +1,5 @@
 ## Live Demo  
-[Try CoralAI Here]([https://coral-ai.streamlit.app/](https://coral-reef-health-ai-jogw9eiudfghfg7ncrpcip.streamlit.app/))
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://coral-reef-health-ai-jogw9eiudfghfg7ncrpcip.streamlit.app/)
 
 # Coral Reef Health Monitoring AI  
 
