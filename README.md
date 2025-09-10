@@ -1,3 +1,6 @@
+## Live Demo  
+[Try CoralAI Here]([https://coral-ai.streamlit.app/](https://coral-reef-health-ai-jogw9eiudfghfg7ncrpcip.streamlit.app/))
+
 # Coral Reef Health Monitoring AI  
 
 An AI-powered image classification project to monitor the health of coral reefs.  
