@@ -24,15 +24,15 @@ The system is built with **TensorFlow/Keras** for model training and **Streamlit
 - NumPy, Pillow, Matplotlib  
 
 # Model Architecture
-Conv2D (32 filters, 3x3, ReLU)
-MaxPooling2D (2x2)
-Conv2D (64 filters, 3x3, ReLU)
-MaxPooling2D (2x2)
-Conv2D (128 filters, 3x3, ReLU)
-MaxPooling2D (2x2)
-Flatten
-Dense (128, ReLU)
-Dropout (0.3)
-Dense (3, Softmax)
+- Conv2D (32 filters, 3x3, ReLU)
+- MaxPooling2D (2x2)
+- Conv2D (64 filters, 3x3, ReLU)
+- MaxPooling2D (2x2)
+- Conv2D (128 filters, 3x3, ReLU)
+- MaxPooling2D (2x2)
+- Flatten
+- Dense (128, ReLU)
+- Dropout (0.3)
+- Dense (3, Softmax)
 
 Total Parameters: 3.3 Million
