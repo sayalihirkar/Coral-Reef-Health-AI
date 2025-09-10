@@ -4,7 +4,7 @@ from keras.models import load_model
 from keras.preprocessing import image
 from PIL import Image
 
-# Load model (make sure CoralModel.keras is in the same folder or give full path)
+# Load model
 model = load_model("CoralModel.keras")
 
 # Define classes
