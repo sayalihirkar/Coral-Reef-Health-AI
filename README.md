@@ -46,13 +46,6 @@ One-click **deployment** on Streamlit Cloud
 
 ---
 
-## Example Output  
-
-| Uploaded Image | Model Prediction |
-|---------------|----------------|
-| ![example coral](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Coral_Reef.jpg/320px-Coral_Reef.jpg) | **Healthy Corals** (92.5% sure) |
-
----
 
 ## Future Improvements  
 - Add support for **real-time webcam input**  
