@@ -7,7 +7,7 @@ from PIL import Image
 
 # ---- CONFIG ----
 IMG_SIZE = (128, 128)
-class_names = ["bleached_corals", "dead_corals", "healthy_corals"] 
+class_names = ["Bleached Corals", "Dead Corals", "Healthy Corals"]
 
 # ---- Load Model ----
 model = load_model("CoralModel.keras")
