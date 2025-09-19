@@ -30,7 +30,11 @@ if uploaded_file is not None:
     probs = model.predict(arr, verbose=0)[0]
     best = np.argmax(probs)
 
-    st.subheader(f"✅ Final Prediction: **{class_names[best]}** ({probs[best]*100:.2f}% sure)")
+    # ---- Print Detailed Predictions ----
+    st.write(f"### Predictions for: **{uploaded_file.name}**")
+    for i, class_name in enumerate(class_names):
+        st.write(f"{class_name:<15}: {probs[i]*100:.2f}%")
+    st.subheader(f"Final Prediction: **{class_names[best]}** ({probs[best]*100:.2f}% sure)")
 
     # ---- Show Probabilities (Bar Chart) ----
     fig, ax = plt.subplots(figsize=(6,4))
