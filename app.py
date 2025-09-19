@@ -35,11 +35,3 @@ if uploaded_file is not None:
     for i, class_name in enumerate(class_names):
         st.write(f"{class_name:<15}: {probs[i]*100:.2f}%")
     st.subheader(f"Final Prediction: **{class_names[best]}** ({probs[best]*100:.2f}% sure)")
-
-    # ---- Show Probabilities (Bar Chart) ----
-    fig, ax = plt.subplots(figsize=(6,4))
-    ax.bar(class_names, probs)
-    ax.set_ylabel("Probability")
-    ax.set_title("Prediction Probabilities")
-    ax.grid(axis='y', linestyle='--', alpha=0.6)
-    st.pyplot(fig)
